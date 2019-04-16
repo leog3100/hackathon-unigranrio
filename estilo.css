@@ -306,8 +306,15 @@ div.gallery {
   }
 
   .sec-video{
-        margin-top: 30px;
-        
+        margin-top: 10px;
+        margin-bottom: 50px;
+        text-align: center;
+        position: relative;        
+  }
+
+  .video{
+    height: 500px;
+    width: 75%;
   }
   
   .rodape{
@@ -339,6 +346,24 @@ div.gallery {
 {
         opacity:1;
         transition: 1s;
+}
+
+div.img-insc{
+    position: relative;
+    margin-left: 250px;
+}
+
+.sel{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fab234;   
+    margin-bottom: 20px;
+    margin-top: 20px;
+
 }
 
 
