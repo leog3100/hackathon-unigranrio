@@ -85,7 +85,22 @@ div.imagem {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 0;
     font-size: 15px;
-    text-align: center;
+    text-align: justify;
+}
+
+.inicio{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#oque{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 0;
+    font-size: 50px;
+    color: rgb(5, 143, 131);
 }
 
 #content-title{
@@ -296,7 +311,10 @@ div.gallery {
   }
   
   .rodape{
+      height: 100%;
       text-align: center;
+      background-color: #777;
+
   }
 
   .table-agenda{
@@ -322,6 +340,10 @@ div.gallery {
         opacity:1;
         transition: 1s;
 }
+
+
+
+
 
 
 
